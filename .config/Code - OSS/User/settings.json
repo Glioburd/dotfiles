@@ -1,0 +1,10 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.fontSize": 16,
+    "files.associations": {
+        "config": "properties"
+    },
+    "workbench.colorTheme": "Tokyo Night Storm"
+}

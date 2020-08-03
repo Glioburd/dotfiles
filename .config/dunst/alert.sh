@@ -1,0 +1,1 @@
+paplay /home/altindas/.config/dunst/notify.wav

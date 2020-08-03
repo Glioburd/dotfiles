@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/guilhem/.config/wpg/wallpapers/miami.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#101115",
+        "foreground": "#eac094",
+        "cursor": "#eac094"
+    },
+    "colors": {
+        "color0": "#101115",
+        "color1": "#91434A",
+        "color2": "#B0494F",
+        "color3": "#AE6A47",
+        "color4": "#D05056",
+        "color5": "#E35B57",
+        "color6": "#E76F51",
+        "color7": "#eac094",
+        "color8": "#a38667",
+        "color9": "#91434A",
+        "color10": "#B0494F",
+        "color11": "#AE6A47",
+        "color12": "#D05056",
+        "color13": "#E35B57",
+        "color14": "#E76F51",
+        "color15": "#eac094"
+    }
+}
