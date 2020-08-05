@@ -7,7 +7,7 @@ $HOME/.config/wpg/wp_init.sh
 bspc monitor DisplayPort-0 -d term code web music 
 bspc monitor DVI-D-0 chat -d VI VII VIII IX X
 
-bspc config border_width            4
+bspc config border_width            0
 bspc config window_gap              6
 
 bspc config split_ratio             0.52
@@ -29,12 +29,17 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-windowwidth=400
-windowheight=300
+windowwidth=800
+windowheight=600
 
-screenwidth=$(xdpyinfo | awk -F’[ x]+’ ‘/dimensions:/{print $3}’)
-screenheight=$(xdpyinfo | awk -F’[ x]+’ ‘/dimensions:/{print $4}’)
-windowx=$((“$screenwidth”/2-“$windowwidth”/2))
-windowy=$((“$screenheight”/2-“$windowheight”/2))
+# screenwidth=$(xdpyinfo | awk -F’[ x]+’ ‘/dimensions:/{print $3}’)
+# screenheight=$(xdpyinfo | awk -F’[ x]+’ ‘/dimensions:/{print $4}’)
+# windowx=$((“$screenwidth”/2-“$windowwidth”/2))
+# windowy=$((“$screenheight”/2-“$windowheight”/2))
 
-bspc rule -a kitty:urlpick state=floating rectangle=“$windowwidth”x”$windowheight”+”$windowx”+”$windowy” && kitty -name vimfloat -e vim $@
+# bspc rule -a kitty:urlpick state=floating rectangle=“$windowwidth”x”$windowheight”+”$windowx”+”$windowy” && kitty -name vimfloat -e vim $@
+
+# bspc rule -a kitty:sxhkd_keys_help state=floating
+bspc rule -a TelegramDesktop state=floating center=true
+bspc rule -a Signal state=floating center=true
+bspc rule -a KeePassXC state=floating center=true

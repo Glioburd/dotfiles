@@ -138,25 +138,33 @@ super + shift + m
 super + shift + {d,a}
     bspc node @/ -C {forward,backward}
 
+#########################
+#		SCRATCHPAD  	#
+#########################
+
 # Toggle Telegram
 alt + c
     ~/.config/bspwm/bspwm-toggle-visibility TelegramDesktop telegram-desktop
+
+# Toggle Signal
+alt + s
+	~/.config/bspwm/bspwm-toggle-visibility Signal signal-desktop
+
+# Toggle KeepassXC
+alt + k
+	~/.config/bspwm/bspwm-toggle-visibility KeePassXC keepassxc
 
 
 #########################
 #	BSPWM LAYOUT KEYS	#
 #########################
 
-# azerty keyboards layout for numbers 1-10
-#{ampersand,eacute,quotedbl,apostrophe,parenleft,section,egrave,exclam,ccedilla,agrave}
-
-#Focus select desktop FOR QWERTY KEYBOARDS
-
-# focus or send to the given desktop
+#Focus or send to the given desktop (QWERTY)
 # super + {_,shift + }{1-9,0}
 #	bspc {desktop -f,node -d} '^{1-9,10}'
 
-#Focus select desktop FOR AZERTY KEYBOARDS
+# Focus or send to the given desktop (AZERTY)
+
 super + {_,shift + }{ampersand,eacute,quotedbl,apostrophe,parenleft,minus,egrave,underscore,ccedilla,agrave}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
