@@ -1,3 +1,0 @@
-[2020-07-29 21:19:07.037] [renderer1] [warning] [File Watcher (chokidar)] Error: ELOOP: too many symbolic links encountered, stat '/home/guilhem/.config/wpg/wallpapers/.tmp.sample.png'
-[2020-07-29 21:23:01.132] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
-[2020-07-29 21:23:01.164] [renderer1] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)

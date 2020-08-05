@@ -1,8 +1,0 @@
-[2020-07-29 21:18:43.041] [sharedprocess] [info] main {"machineId":"0a989d464a3f7f7a15500d51f1f599c20da39d557eea9369d87e82c9045a3250","windowId":2}
-[2020-07-29 21:18:44.654] [sharedprocess] [info] Installing extension: enkia.tokyo-night
-[2020-07-29 21:18:45.919] [sharedprocess] [info] Downloaded extension: enkia.tokyo-night /home/guilhem/.config/Code - OSS/CachedExtensionVSIXs/enkia.tokyo-night-0.6.0
-[2020-07-29 21:18:45.955] [sharedprocess] [info] Extracted extension to /home/guilhem/.vscode-oss/extensions/.enkia.tokyo-night-0.6.0: enkia.tokyo-night
-[2020-07-29 21:18:45.955] [sharedprocess] [info] Renamed to /home/guilhem/.vscode-oss/extensions/enkia.tokyo-night-0.6.0
-[2020-07-29 21:18:45.956] [sharedprocess] [info] Installation completed. enkia.tokyo-night
-[2020-07-29 21:18:45.964] [sharedprocess] [info] Extensions installed successfully: enkia.tokyo-night
-[2020-07-29 21:19:23.050] [sharedprocess] [info] Starting to clean up unused language packs.

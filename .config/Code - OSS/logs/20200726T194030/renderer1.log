@@ -1,1 +1,0 @@
-[2020-07-26 19:40:33.982] [renderer1] [warning] [File Watcher (chokidar)] Error: ELOOP: too many symbolic links encountered, stat '/home/guilhem/.config/wpg/wallpapers/.tmp.sample.png'
